@@ -1,2 +1,2 @@
-# gedi-xml-to-gtp
-Convert any GEDI XML format into gtp text format using the given GEDI tag
+# gedi-xml-to-read-xml
+Convert any GEDI XML format into READ-XML format using the given GEDI tag
