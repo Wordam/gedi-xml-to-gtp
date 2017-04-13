@@ -31,7 +31,7 @@ def createGtp(attribName,outfolder):
                 content = c.attrib[attribName]
                 current = x1 + " " + y1 + " " + x2 + " " + y2 + " " + content + "\n"
                 text += current
-                fullText += f + " " + current
+                fullText += f + ".jpg" + " " + current
         fname = outfolder + "/" + f + ".gtp"
         file = codecs.open(fname,"w","utf-8")
         file.write(text);
